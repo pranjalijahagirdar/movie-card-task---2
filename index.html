@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie model task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="index.html">
+                    <img src="./assets/img/logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="col-md-6 text-right">
+                <button id="addMovie" class="btn btn-sm net-pri-btn">Add Movie</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row mt-4" id="movieContainer">
+            <!-- <div class="col-md-3 mb-3">
+                <div class="card movieCard">
+                    <div class="card-header d-flex justify-content-between">
+                        <h4 class="movieTitle">Natsamrat</h4>
+                        <h5><span class="badge badge-success"></span></h5>
+                    </div>
+                    <div class="card-body">
+                        <figure class="py-0">
+                            <img src="https://m.media-amazon.com/images/M/MV5BOWI5ZDM3NTQtOWI0ZS00ZGI4LWE1YjEtMmZhYjk4NTE1MGMwXkEyXkFqcGc@._V1_.jpg" alt="movie">
+                            <figcaption>
+                                <h5>Natsamrat</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut aliquet velit. In hac habitasse platea dictumst. Proin tincidunt felis sem, sit amet rhoncus risus dignissim id. Duis odio tellus, fringilla at sagittis vel, venenatis imperdiet nunc. Morbi id porta felis, quis commodo arcu. Proin vel sapien vehicula, consequat odio non, luctus ex.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="btn btn-sm net-sec-btn">Edit</button>
+                        <button class="btn btn-sm net-pri-btn">Remove</button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="backDrop formClose" id="backDrop"></div>
+        <form id="movieForm">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between"> 
+                    <h5>Add Movie</h5>
+                    <i class="fa-solid fa-xmark  fa-2x formClose" id="closeForm" role="button"></i>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="movieName">Enter Movie Name</label>
+                        <input required type="text" class="form-control" id="movieName">
+                    </div>
+                    <div class="form-group">
+                        <label for="movieImg">Enter movie image</label>
+                        <input required type="text" class="form-control" id="movieImg">
+                    </div>
+                    <div class="form-group">
+                        <label for="movieDesciption">Enter movie Desciption</label>
+                        <textarea required type="text" class="form-control" id="movieDesciption"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="movieRating">Enter movie Rating</label>
+                        <select id="movieRating" class="form-control">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button type="submit" id="addMoviebtn" class="btn btn-sm net-sec-btn">Add Movie</button>
+                    <button type="button" id="updateMoviebtn" class="btn btn-sm net-sec-btn
+                     d-none">Update Movie</button>
+                    <button type="button" class="btn btn-sm net-pri-btn formClose">Close</button>
+                </div>
+            </div>
+        </form>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
