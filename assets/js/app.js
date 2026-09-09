@@ -14,15 +14,15 @@ const formClose = document.querySelectorAll('.formClose')
 
 // let movieArray=[
 //     {
-//     movieName: "",
-//     movieImg: "https://images.jdmagicbox.com/comp/jd_social/news/2018jul16/image-73379-l6x7j60941.jpg",
+//     movieName: "Kutumb",
+//     movieImg: "https://c.saavncdn.com/693/Kutumb-Marathi-2012-20181122091816-500x500.jpg",
 //     movieRating: 8,
 //     movieDesciption: "The Avengers unite to reverse the damage caused by Thanos.",
 //     movieId:"01"
 //   },
 //   {
-//     movieName: "Dagdi Chwal",
-//     movieImg: "https://popcornreviewss.com/wp-content/uploads/2021/03/dagdi-chawl-2015-marathi-movie.jpg",
+//     movieName: "Dagdi Chawl",
+//     movieImg: "https://upload.wikimedia.org/wikipedia/en/2/20/Dagdi_Chawl_Poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
 //     movieRating: 7,
 //     movieDesciption: "A team of astronauts travels through space to find a new home for humanity.",
 //     movieId:"02"

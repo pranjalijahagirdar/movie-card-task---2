@@ -64,7 +64,8 @@ body::before{
       rgba(0, 0, 0, 0.6139) 83.83%,
       rgba(0, 0, 0, 0.6035) 91.92%,
       rgba(0, 0, 0, 0.6) 100%
-    ),url(../img/bgimg.jpg);
+    ),url(../img/bgimg1.jpg);
+    filter:blur(2px);
 }
 
 .movieCard{
