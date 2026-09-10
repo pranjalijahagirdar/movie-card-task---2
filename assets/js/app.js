@@ -214,6 +214,12 @@ function deleteMovie(ele){
         localStorage.setItem('movieArray', JSON.stringify(movieArray));
         ele.closest('.movieCard').parentElement.remove();
     }
+
+    Swal .fire({
+        title:'Card deleted successfully !!!',
+        icon:'success',
+        timer:3000
+    });
 }
 
 
